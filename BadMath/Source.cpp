@@ -4,7 +4,7 @@ using namespace std;
 
 float average(int i1, int i2, int i3)
 {
-	return i1 + i2 + i3 / 3.0f;
+	return static_cast<float>(i1 + i2 + i3) / 3.0f;
 }
 
 int main()
